@@ -1,3 +1,32 @@
-body {
-    background-color: aqua;
+.navbar {
+    text-align: center;
 }
+
+.navbar > a {
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}
+
+.box {
+    background-color:Chartreuse;
+    /* width:31%; */
+    display:inline-block;
+    height: 300px;
+    border-radius:6px;
+ }
+ 
+ .text {
+    padding:11px 0;
+    color:yellow;
+    font-weight:bold;
+    text-align:center;
+ }
+ 
+ #container {
+    white-space:nowrap;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+ }
+ 
