@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.project {
+    @apply bg-white rounded overflow-hidden shadow-md;
+}
+
+.img {
+    @apply pt-1 w-full h-32 sm:h-48 object-cover;
+}
