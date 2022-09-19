@@ -6,19 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="./dist/output.css" rel="stylesheet" />
-    <script defer src="./java/script.js"></script>
+    <script defer src="./javascript/script.js"></script>
   </head>
   <body class="bg-gray-200">
     <!--nav start-->
 
-    <div class="grid md:grid-cols-4">
-      <div class="md:col-span-1 md:flex md:justify-end bg-blue-100">
-        <nav class="text-right">
+    <div class="grid md:grid-cols-1">
+      <div class="md:col-span-1 md:flex md:justify-center bg-blue-100">
+        <nav >
+          <h1 class="font-bold uppercase p-4 border-b border-red-700 text-center text-2xl">
+            <a href="/" class="hover:text-pink-700 ">KMC</a>
+          </h1>
           <div class="flex justify-between">
-            <h1 class="font-bold uppercase p-4 border-b border-red-700">
-              <a href="/" class="hover:text-pink-700">KMC</a>
-            </h1>
-            <div class="px-4 mt-4 cursor-pointer md:hidden" id="menuShow">
+
+            <div class="px-4 mt-4 cursor-pointer md:hidden " id="menuShow">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-6 w-6"
@@ -35,7 +36,7 @@
               </svg>
             </div>
           </div>
-          <ul class="text-sm mt-6 hidden md:block" id="menuhide">
+          <ul class="text-sm mt-6 hidden  md:flex md:flex-row" id="menuhide">
             <li class="py-1">
               <a href="#" class="px-4 flex justify-end">
                 <span>My work</span>
@@ -98,7 +99,7 @@
       
       <!--Heder info start -->
 
-      <main class="px-16 py-6 md:col-span-3">
+      <main class="px-16 py-6 w-3/4 mx-auto ">
         <header>
           <h2 class="pb-1 uppercase">Hello there, i'am</h2>
           <h3 class="text-2xl font-bold pt-3">Kenneth Carlson</h3>
@@ -137,13 +138,34 @@
                 <span class="block text-black-300">Oppagve</span>
               </div>
             </div>
+            <div class="project hover:shadow-2xl cursor-pointer">
+              <img src="img/07.jpg" alt="Me" class="img" />
+              <div class="mt-4">
+                <span class="font-bold">tittel</span>
+                <span class="block text-black-300">Oppagve</span>
+              </div>
+            </div>
+            <div class="project hover:shadow-2xl cursor-pointer">
+              <img src="img/07.jpg" alt="Me" class="img" />
+              <div class="mt-4">
+                <span class="font-bold">tittel</span>
+                <span class="block text-black-300">Oppagve</span>
+              </div>
+            </div>
+            <div class="project hover:shadow-2xl cursor-pointer">
+              <img src="img/07.jpg" alt="Me" class="img" />
+              <div class="mt-4">
+                <span class="font-bold">tittel</span>
+                <span class="block text-black-300">Oppagve</span>
+              </div>
+            </div>
           </div>
 
        <!--End box/prosjects -->
 
       <!--Start about -->
 
-     <div class="mt-10 flex justify-center md:gap-56 flex-col md:flex-row">
+     <div class="mt-10 flex justify-center md:gap-56 flex-col md:flex-row" id="about">
       <h3 class="uppercase md:self-center">Her skal det komme navn</h3>
       <img src="img/D4SC_0013.jpg" alt="" class="object-scale-down h-50 w-96 rounded-lg">
       <span class="md:self-center"> Her skal komme bort info om meg</span>
@@ -155,7 +177,7 @@
       <!--Start contact -->
 
      <div class="mt-10 flex flex-col" >
-      <h3 class="uppercase text-pink-700 font-semibold  ">kontakt info</h3>
+      <h3 class="uppercase text-pink-700 font-semibold" id="contact">kontakt info</h3>
       <span> Linkindt</span>
       <span> Github</span>
       <span> mail</span>
