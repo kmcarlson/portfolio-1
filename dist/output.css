@@ -833,14 +833,6 @@ video {
     justify-content: center;
   }
 
-  .md\:gap-56 {
-    gap: 14rem;
-  }
-
-  .md\:gap-52 {
-    gap: 13rem;
-  }
-
   .md\:self-center {
     align-self: center;
   }
