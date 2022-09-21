@@ -11,4 +11,9 @@ menuShow.addEventListener('click', () => {
     }
 })
 
+function handleScroll(id){
+    let goTo = document.getElementById(id);
+    goTo.scrollIntoView({behavior: "smooth"})
+    
+}
 
