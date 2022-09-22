@@ -12,8 +12,12 @@ menuShow.addEventListener('click', () => {
 })
 
 function handleScroll(id){
+    
+    console.log('this id:' + id);
     let goTo = document.getElementById(id);
-    goTo.scrollIntoView({behavior: "smooth"})
+    console.log(goTo);
+    goTo.scrollIntoView();
+    console.log('wazzup');
     
 }
 
