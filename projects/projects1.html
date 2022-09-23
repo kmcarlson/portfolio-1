@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,19 +7,24 @@
     <title>Cross course project - Rainy days</title>
     <link href="../dist/output.css" rel="stylesheet" />
     <script defer src="../javascript/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/075c648cb7.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body class="bg-gray-200">
     <!--nav start-->
 
     <div class="grid md:grid-cols-1">
       <div class="md:col-span-1 md:flex md:justify-center bg-blue-100">
-        <nav >
-          <h1 class="font-bold uppercase p-4 border-b border-red-700 text-center text-2xl">
-            <a href="/" class="hover:text-pink-700 ">KMC</a>
+        <nav>
+          <h1
+            class="font-bold uppercase p-4 border-b border-red-700 text-center text-2xl"
+          >
+            <a href="/" class="hover:text-pink-700">KMC</a>
           </h1>
           <div class="flex justify-between">
-
-            <div class="px-4 mt-4 cursor-pointer md:hidden " id="menuShow">
+            <div class="px-4 mt-4 cursor-pointer md:hidden" id="menuShow">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-6 w-6"
@@ -36,9 +41,9 @@
               </svg>
             </div>
           </div>
-          <ul class="text-sm mt-6 hidden  md:flex md:flex-row" id="menuhide">
+          <ul class="text-sm mt-6 hidden md:flex md:flex-row" id="menuhide">
             <li class="py-1">
-              <a href="#" class="px-4 flex justify-end">
+              <a href="../#my-work" class="px-4 flex justify-end">
                 <span>My work</span>
                 <svg
                   class="w-5 ml-2"
@@ -56,7 +61,7 @@
               </a>
             </li>
             <li class="py-1">
-              <a href="#" class="px-4 flex justify-end">
+              <a href="../#about" class="px-4 flex justify-end">
                 <span>About</span>
                 <svg
                   class="w-5 ml-2"
@@ -74,7 +79,7 @@
               </a>
             </li>
             <li class="py-1">
-              <a href="#" class="px-4 flex justify-end">
+              <a href="#contact" class="px-4 flex justify-end">
                 <span>Contact</span>
 
                 <svg
@@ -96,61 +101,76 @@
         </nav>
       </div>
       <!--End nav-->
-      
+
       <!--Heder info start -->
 
-      <main class="px-16 py-6 w-3/4 mx-auto ">
+      <main class="px-16 py-6 w-3/4 mx-auto">
         <header>
-          <h3 class="text-2xl font-bold pt-3 uppercase">Cross course project</h3>
+          <h3 class="text-2xl font-bold pt-3 uppercase">
+            Cross course project
+          </h3>
         </header>
 
         <div>
           <p
-            class=" text-blue-700 font-semibold pb-2 border-b border-red-700 uppercase p-1"
+            class="text-blue-700 font-semibold pb-2 border-b border-red-700 uppercase p-1"
           >
             cross-course project
-        </p>
+          </p>
 
-
-        <div class="flex flex-col">
-            <img src="../img/cross-course project.png" >
+          <div class="flex flex-col">
+            <img src="../img/cross-course project.png" />
 
             <h2 class="text-2xl mt-8">The assignment</h2>
-            <p class="mb-10 mt-8">In this assignment, you’ll be using the WordPress REST API to manage the products for your website deployed on Netlify. Instead of having the products hardcoded into the HTML, you will use JavaScript to fetch the list of WordPress products and display them on your site.
-
-                It’s essential to note the two different aspects of the assignment: the WordPress REST API running on your web host, and your JavaScript in the cross-course project, making a call to that API. WordPress will generate a front-end, but that’s not what we’re using it for in this assignment; we’re using it as a Headless CMS</p>
+            <p class="mb-10 mt-8">
+              In this assignment, you’ll be using the WordPress REST API to
+              manage the products for your website deployed on Netlify. Instead
+              of having the products hardcoded into the HTML, you will use
+              JavaScript to fetch the list of WordPress products and display
+              them on your site. It’s essential to note the two different
+              aspects of the assignment: the WordPress REST API running on your
+              web host, and your JavaScript in the cross-course project, making
+              a call to that API. WordPress will generate a front-end, but
+              that’s not what we’re using it for in this assignment; we’re using
+              it as a Headless CMS
+            </p>
 
             <a href="#" class="mt-6"> <span>icon</span> link til side</a>
-            <a href="#" > <span>icon</span> link til repo</a>
+            <a href="#"> <span>icon</span> link til repo</a>
+          </div>
 
-        </div>
+          <!--Heder info end -->
 
-      <!--Heder info end -->
-      
-      <!--Start projects page -->
-        
+          <!--Start projects page -->
 
+          <!--End projects page -->
 
-       <!--End projects page -->
+          <!--Start contact -->
 
+          <div class="mt-10 flex flex-col">
+            <h3 class="uppercase text-pink-700 font-semibold mb-8" id="contact">
+              contact me
+            </h3>
+            <a href="https://github.com/kmcarlson" target="_blank">
+              <p><i class="fab fa-github-square fa-lg contact"></i>kmcarlson</p></a
+            >
+            <a href="mailto:carlson90@hotmail.com">
+              <p><i class="far fa-envelope fa-lg contact"></i>Send mail</p></a
+            >
+            <a
+              href="https://www.linkedin.com/in/kenneth-maklai-carlson-292584b7/"
+              target="_blank"
+            >
+              <p><i class="fab fa-linkedin fa-lg contact"></i>LinkedIn</p></a
+            >
+            <a href="https://twitter.com/twittcarlson" target="_blank">
+              <p><i class="fab fa-twitter-square fa-lg contact"></i>Twitter</p></a
+            >
+          </div>
 
-
-      <!--Start contact -->
-
-     <div class="mt-10 flex flex-col" >
-      <h3 class="uppercase text-pink-700 font-semibold" id="contact">kontakt info</h3>
-      <span> Linkindt</span>
-      <span> Github</span>
-      <span> mail</span>
-
-     </div>
-
-      <!--End contact -->
-
-
+          <!--End contact -->
         </div>
       </main>
     </div>
-   
   </body>
 </html>

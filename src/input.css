@@ -9,3 +9,7 @@
 .img {
     @apply pt-1 w-full h-32 sm:h-48 object-cover;
 }
+
+.contact {
+    @apply  mr-2 mb-2;
+}

@@ -11,13 +11,15 @@ menuShow.addEventListener('click', () => {
     }
 })
 
-function handleScroll(id){
+// Tried to do this with js but failed.
+
+// function handleScroll(id){
     
-    console.log('this id:' + id);
-    let goTo = document.getElementById(id);
-    console.log(goTo);
-    goTo.scrollIntoView();
-    console.log('wazzup');
+//     console.log('this id:' + id);
+//     let goTo = document.getElementById(id);
+//     console.log(goTo);
+//     goTo.scrollIntoView();
+//     console.log('wazzup');
     
-}
+// }
 
