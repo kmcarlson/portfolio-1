@@ -12,14 +12,11 @@ Here you will see a simple portfolio of my tasks that I did during my years at s
 
 
 
-- 
-- 
-- 
-- 
+- HTML
+- Javascript
+- Tailwind CSS
 
 ## Getting Started
-
-
 
 ### Installing
 
