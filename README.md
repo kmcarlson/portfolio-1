@@ -1,7 +1,7 @@
 # portfolio-1
 
 
-![image](https://github.com/kmcarlson/InteractionDesign/blob/6f18b26bd81b8cd380a7cec18845e84c0267d9af/images/Screenshot2.png)
+![image](https://github.com/kmcarlson/portfolio-1/blob/a5f362b38d51e4b2e32bd6b57c1bf16398baa202/img/portfolio-1.png)
 
 A simple overview of the use/purpose of the project.
 
