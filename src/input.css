@@ -11,5 +11,5 @@
 }
 
 .contact {
-    @apply  mr-2 mb-2;
+    @apply  mr-2 mb-2 transition ease-in-out hover:scale-110 hover:-translate-y-1;
 }
