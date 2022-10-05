@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 .project {
-    @apply bg-white rounded overflow-hidden shadow-md;
+  @apply bg-white rounded overflow-hidden shadow-md;
 }
 
 .img {
-    @apply pt-1 w-full h-32 sm:h-48 object-cover;
+  @apply pt-1 w-full h-32 sm:h-48 object-cover;
 }
 
 .contact {
-    @apply  mr-2 mb-2 transition ease-in-out hover:scale-110 hover:-translate-y-1;
+  @apply mr-2 mb-2 transition ease-in-out hover:scale-110 hover:-translate-y-1;
 }
